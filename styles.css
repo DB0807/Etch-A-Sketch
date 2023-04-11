@@ -1,0 +1,20 @@
+.gridDiv {
+    background-color: grey;
+    min-width: 22px;
+    height: 22px;
+    margin: 1px;
+}
+
+.gridContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-start;
+    width: 400px;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.gridHover {
+    background-color: dodgerblue;
+}
